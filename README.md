@@ -36,7 +36,7 @@ npm install
 In the root directory of the project, create a .env file to store your environment variables, such as the MongoDB connection string and the port number.
 ```bash
 DB_URI=mongodb://localhost:27017/expense-tracker
-PORT=3000
+PORT=5000
 ```
 **DB_URI**: This is your MongoDB connection URI. You can use a local MongoDB instance or connect to a remote MongoDB database if preferred.
 **PORT**: This is the port number on which the server will run. The default is set to 5000, but you can change it if necessary.
